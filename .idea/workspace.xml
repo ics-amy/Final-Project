@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="896a48d5-7833-4989-8653-84132a8e6489" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/Components/quiz1-question.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/Components/quiz2-question.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/Components/quiz3-question.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Final-Project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quiz-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quiz-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Quiz-3.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/app.body.html" afterPath="$PROJECT_DIR$/Client/app.body.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/release" afterPath="$PROJECT_DIR$/.meteor/release" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Components/quiz3-question.html" afterPath="$PROJECT_DIR$/Client/Components/quiz3-question.html" />
     </list>
     <ignored path="Final-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +28,8 @@
       <file leaf-file-name="quiz3-question.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/Components/quiz3-question.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.95726496">
+              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -75,8 +64,8 @@
         <option value="$PROJECT_DIR$/Client/app.head.html" />
         <option value="$PROJECT_DIR$/Client/Components/quiz1-question.html" />
         <option value="$PROJECT_DIR$/Client/app.body.html" />
-        <option value="$PROJECT_DIR$/Client/Components/quiz3-question.html" />
         <option value="$PROJECT_DIR$/Client/Components/quiz2-question.html" />
+        <option value="$PROJECT_DIR$/Client/Components/quiz3-question.html" />
       </list>
     </option>
   </component>
@@ -88,8 +77,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="821" />
-    <option name="y" value="24" />
+    <option name="x" value="820" />
+    <option name="y" value="23" />
     <option name="width" value="619" />
     <option name="height" value="823" />
   </component>
@@ -444,6 +433,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="896a48d5-7833-4989-8653-84132a8e6489" name="Default" comment="" />
@@ -451,15 +443,15 @@
       <option name="number" value="Default" />
       <updated>1447445608353</updated>
       <workItem from="1447445612979" duration="729000" />
-      <workItem from="1447627526434" duration="3731000" />
+      <workItem from="1447627526434" duration="4340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4460000" />
+    <option name="totallyTimeSpent" value="5069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="821" y="24" width="619" height="823" extended-state="0" />
+    <frame x="820" y="23" width="619" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -486,6 +478,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -555,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/Components/quiz3-question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.95726496">
+          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
