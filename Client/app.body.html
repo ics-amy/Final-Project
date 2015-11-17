@@ -2,11 +2,32 @@
 <body>
 
   <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          {{ >quiz1}}
+      <div class="page-header">
+        <h1 align="center">Trivia Quiz</h1>
+        <div align="left">
+          {{ >loginButtons}}
         </div>
       </div>
+  </div>
+
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbardata">
+          <ul class="nav navbar-nav">
+            <li><a href="quiz1-question.html">Home</a></li>
+            <li><a href="quiz2-question.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
 
 </body>
