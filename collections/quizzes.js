@@ -8,6 +8,7 @@ Router.route('/quiz1page');
 Router.route('/quiz2page');
 Router.route('/quiz3page');
 Router.route('/scorespage');
+Router.route('/aboutspage');
 
 Router.route('/', {
   template: 'home'
