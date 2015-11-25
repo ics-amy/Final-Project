@@ -117,3 +117,7 @@ grader1 = function () {
   }
   alert(alertText);
 }
+
+function reset() {
+  document.getElementsByName("submit").reset();
+}

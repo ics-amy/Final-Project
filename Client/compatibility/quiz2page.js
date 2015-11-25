@@ -26,7 +26,7 @@ grader2 = function () {
   var a2 = document.getElementsByName('q2');
   for(i = 0; i < a2.length; i++) {
     if(a2[i].checked) {
-      if(a2[i].value == 'Whale shark') {
+      if(a2[i].value == 'whale shark') {
         correct++;
         break;
       }
@@ -120,4 +120,8 @@ grader2 = function () {
     alertText = "You got " + correct + " out of " + questions + " correct!";
   }
   alert(alertText);
+}
+
+function reset() {
+  document.getElementsByName("submit").reset();
 }
