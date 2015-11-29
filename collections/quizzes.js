@@ -15,11 +15,7 @@ Router.route('/', {
 });
 
 if(Meteor.isClient) {
-  Template.scores.helpers({
-    'user': function () {
-      return Quiz.find({}, {score: -1, name: 1});
-    }
-  });
+
 }
 
 

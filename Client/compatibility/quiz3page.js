@@ -120,7 +120,32 @@ grader3 = function () {
     alertText = "You got " + correct + " out of " + questions + " correct!";
   }
   alert(alertText);
+  return correct;
 }
+
+addScore = function (score) {
+  if (!Meteor.userId()) {
+    throw new Meteor.Error("not-authorized");
+  }
+  Quiz.insert({
+    username: Meteor.user().emails[0].address,
+    score: score,
+  });
+}
+
+if(Meteor.isClient) {
+  Template.quiz3page.events({
+    "submit .quiz3": function (event) {
+      //Prevent default browser form submit
+      event.preventDefault();
+
+      //Get value from form element
+      var score = grader3();
+      addScore(score);
+    },
+  });
+}
+
 
 function reset() {
   document.getElementsByName("submit").reset();
