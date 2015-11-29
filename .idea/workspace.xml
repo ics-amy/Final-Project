@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfe2cd1c-00ce-40e0-9b17-c6b5456fea59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/compatibility/scores.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Final-Project.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Components/quiz1page.html" afterPath="$PROJECT_DIR$/Client/Components/quiz1page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/compatibility/quiz1page.js" afterPath="$PROJECT_DIR$/Client/compatibility/quiz1page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Components/quiz2page.html" afterPath="$PROJECT_DIR$/Client/Components/quiz2page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/compatibility/quiz2page.js" afterPath="$PROJECT_DIR$/Client/compatibility/quiz2page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Components/quiz3page.html" afterPath="$PROJECT_DIR$/Client/Components/quiz3page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/compatibility/quiz3page.js" afterPath="$PROJECT_DIR$/Client/compatibility/quiz3page.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/collections/quizzes.js" afterPath="$PROJECT_DIR$/collections/quizzes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Components/scores.html" afterPath="$PROJECT_DIR$/Client/Components/scores.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/compatibility/scores.js" afterPath="$PROJECT_DIR$/Client/compatibility/scores.js" />
     </list>
     <ignored path="Final-Project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,18 +32,68 @@
       <file leaf-file-name="quiz1page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/Components/quiz1page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.083333">
-              <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
+            <state vertical-scroll-proportion="-6.875">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz1page.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quiz1page.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz1page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.7794793">
-              <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
+            <state vertical-scroll-proportion="-14.296296">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Final-Project.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-Project.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Final-Project.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Final-Project.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz2page.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz2page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="133" column="6" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz3page.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz3page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47166923">
+              <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scores.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/compatibility/scores.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -59,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/collections/quizzes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -89,15 +133,15 @@
         <option value="$PROJECT_DIR$/Client/app.body.html" />
         <option value="$PROJECT_DIR$/Client/compatibility/grader.js" />
         <option value="$PROJECT_DIR$/Client/Components/quiz1page.html" />
-        <option value="$PROJECT_DIR$/Client/compatibility/quiz1page.js" />
-        <option value="$PROJECT_DIR$/Client/compatibility/quiz2page.js" />
         <option value="$PROJECT_DIR$/Client/Components/quiz2page.html" />
-        <option value="$PROJECT_DIR$/Client/compatibility/quiz3page.js" />
         <option value="$PROJECT_DIR$/Client/Components/quiz3page.html" />
         <option value="$PROJECT_DIR$/Client/Components/scores.html" />
         <option value="$PROJECT_DIR$/Client/Components/scores.js" />
         <option value="$PROJECT_DIR$/Client/compatibility/scores.js" />
         <option value="$PROJECT_DIR$/collections/quizzes.js" />
+        <option value="$PROJECT_DIR$/Client/compatibility/quiz1page.js" />
+        <option value="$PROJECT_DIR$/Client/compatibility/quiz2page.js" />
+        <option value="$PROJECT_DIR$/Client/compatibility/quiz3page.js" />
       </list>
     </option>
   </component>
@@ -109,8 +153,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="185" />
-    <option name="y" value="108" />
+    <option name="x" value="66" />
+    <option name="y" value="23" />
     <option name="width" value="1192" />
     <option name="height" value="773" />
   </component>
@@ -447,15 +491,15 @@
       <workItem from="1448391536023" duration="4671000" />
       <workItem from="1448477065907" duration="141000" />
       <workItem from="1448477871993" duration="2163000" />
-      <workItem from="1448750505851" duration="6059000" />
+      <workItem from="1448750505851" duration="17677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13680000" />
+    <option name="totallyTimeSpent" value="25298000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="108" width="1192" height="773" extended-state="1" />
+    <frame x="66" y="23" width="1192" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -467,7 +511,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -572,20 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Final-Project.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Final-Project.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/app.head.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -606,22 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0">
           <caret line="16" column="97" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/Components/quiz1page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.083333">
-          <caret line="101" column="63" selection-start-line="101" selection-start-column="63" selection-end-line="101" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz3page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -650,17 +664,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz2page.js">
+    <entry file="file://$PROJECT_DIR$/Client/Components/quiz1page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.287902">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="146" selection-end-column="1" />
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/compatibility/scores.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18376723">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
@@ -669,15 +683,47 @@
     <entry file="file://$PROJECT_DIR$/collections/quizzes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-Project.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final-Project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz1page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.7794793">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
+        <state vertical-scroll-proportion="-14.296296">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz2page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="6" selection-start-line="133" selection-start-column="6" selection-end-line="133" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/compatibility/quiz3page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47166923">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@ if(Meteor.isClient) {
 
   Template.scores.helpers({
     'user': function () {
-      return Quiz.find({}, {sort: {score: -1}});
+      return Scores.find({}, {sort: {score: -1}});
     }
   });
 }

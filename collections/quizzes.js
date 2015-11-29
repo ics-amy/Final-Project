@@ -2,6 +2,7 @@
  * Created by amyli on 11/15/15.
  */
 
+Scores = new Mongo.Collection('scores');
 Quiz = new Mongo.Collection('quiz');
 
 Router.route('/quiz1page');
@@ -15,7 +16,9 @@ Router.route('/', {
 });
 
 if(Meteor.isClient) {
-
+  Accounts.ui.config({
+    passwordSignupFields: "USERNAME_ONLY"
+  });
 }
 
 

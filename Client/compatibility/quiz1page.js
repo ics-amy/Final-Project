@@ -2,12 +2,11 @@
  * Created by amyli on 11/24/15.
  */
 
-var questions = 10;
-var correct = 0;
-var alertText;
-var i;
-
 grader1 = function () {
+  var questions = 10;
+  var correct = 0;
+  var alertText;
+  var i;
 
   var a1 = document.getElementsByName('q1');
     for(i = 0; i < a1.length; i++) {
@@ -92,7 +91,7 @@ grader1 = function () {
   var a9 = document.getElementsByName('q9');
   for(i = 0; i < a9.length; i++) {
     if(a9[i].checked) {
-      if(a9[i].value == 'the chocolate makes a "kiss" sound during the manufacturing process') {
+      if(a9[i].value == 'the chocolate makes a kiss sound during the manufacturing process') {
         correct++;
         break;
       }
@@ -109,27 +108,11 @@ grader1 = function () {
     }
   }
 
-  if(correct == questions) {
-    alertText = "Congratulations";
-  }
-  else {
-    alertText = "You got " + correct + " out of " + questions + " correct!";
-  }
-  alert(alertText);
   return correct;
 }
 
-addScore = function (score) {
-  if (!Meteor.userId()) {
-    throw new Meteor.Error("not-authorized");
-  }
-  Quiz.insert({
-    username: Meteor.user().emails[0].address,
-    score: score,
-  });
-}
-
 if(Meteor.isClient) {
+
   Template.quiz1page.events({
     "submit .quiz1": function (event) {
       //Prevent default browser form submit
@@ -137,7 +120,31 @@ if(Meteor.isClient) {
 
       //Get value from form element
       var score = grader1();
-      addScore(score);
+      if (!Meteor.userId()) {
+        alert("You got " + score+ " out of 10 correct!");
+        throw new Meteor.Error("not-authorized");
+      }
+
+      var currentuser = Meteor.user().username;
+      var taken = Scores.find({username: currentuser, quiz1:1}).fetch();
+      var userquery = Scores.find({username: currentuser}).fetch();
+
+      if(userquery.length == 0) {
+        alert("You got " + score+ " out of 10 correct!");
+        Scores.insert({
+          username: Meteor.user().username,
+          quiz1: 1,
+          score: score,
+        });
+      }
+      else if(taken.length == 0) {
+        alert("You got " + score+ " out of 10 correct! Your total score will be updated.");
+        Scores.update({_id:Scores.findOne({username:currentuser})['_id']}, {$inc: {score: score}});
+        Scores.update({_id:Scores.findOne({username:currentuser})['_id']}, {$set: {quiz2: 1}});
+      }
+      else {
+        alert("You have already taken this quiz before. Only your first score will be added to your total score.");
+      }
     },
   });
 }
