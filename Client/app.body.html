@@ -1,17 +1,7 @@
 <template name="home">
   <body>
-
-  <div class="container">
-    <div class="page-header">
-      <h1 align="center">Trivia Quiz</h1>
-      <div align="left">
-        {{ >loginButtons}}
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <nav class="navbar navbar-default">
+  <div class="container" id="bar">
+    <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
@@ -23,6 +13,7 @@
         <div class="collapse navbar-collapse" id="navbardata">
           <ul class="nav navbar-nav">
             <li><a href="/">Home</a></li>
+            <li><a href="quiz1page">Quizzes</a></li>
             <li><a href="scorespage">Scores</a></li>
             <li><a href="aboutspage">About</a></li>
           </ul>
@@ -31,29 +22,29 @@
     </nav>
   </div>
 
-  <div id="body" class="container">
+  <div id="homebody" class="container">
     <div class="row row-eq-height">
-      <div id="sidebar" class="col-sm-3">
-        <p>Choose a Quiz:</p>
-        <ul>
-          <li><a href="quiz1page">Quiz 1</a></li>
-          <li><a href="quiz2page">Quiz 2</a></li>
-          <li><a href="quiz3page">Quiz 3</a></li>
-        </ul>
-      </div>
-      <div id="main" class="col-sm-9">
-        Introduction Text Here
+      <div id="main" class="col-sm-12">
+        <h1>Trivia Quizzes</h1>
+        <p>Test your knowledge with our quizzes on range of topics from history, animals, movies, and more.</p>
+        <p>Create an account to see if you can get the highest score.</p>
+        <p>Click below to get started by signing in or creating an account.</p>
+        {{ >loginButtons}}<br>
+        <img src="knowledge.jpg" style="width:400px; height: 410px;">
       </div>
     </div>
   </div>
 
-  <div class="container">
-
-
+  <div class="container" id="footer">
+    ICS 415 Amy Li and Noelle Chen
   </div>
 
   </body>
 
 </template>
+
+
+
+
 
 

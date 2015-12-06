@@ -2,5 +2,68 @@ body {
   background-image: url("gray.jpg");
   background-attachment: fixed;
   background-size: cover;
+  font-family: Century Gothic, sans-serif;
 }
 
+
+#login-dropdown-list{
+  text-align:center;
+  margin-left: -100px;
+}
+
+#homebody {
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#body {
+  padding-bottom: 10px;
+}
+
+.navbar {
+  border-color: transparent ;
+  width:100%;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-size: 120%;
+  background-color:#0078AC;
+  color: white;
+
+}
+
+.navbar-toggle {
+  background-color: white;
+}
+
+.navbar-toggle .icon-bar{
+  background-color:black;
+}
+
+.navbar-nav>li>a {
+  color: white;
+}
+
+.navbar-nav>li>a:hover {
+  color: black;
+  background-color:transparent;
+}
+
+#bar {
+  width: 100%;
+  background-color:#0078AC;
+  margin-bottom: 5px;
+}
+
+#login-icon>#login-buttons>.login-link-and-dropdown-list>#login-sign-in-link {
+  color:white;
+}
+
+#footer {
+  background-color:#0078AC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color:white;
+  width: 100%;
+}

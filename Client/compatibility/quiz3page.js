@@ -119,7 +119,7 @@ if(Meteor.isClient) {
     "submit .quiz3": function (event) {
       //Prevent default browser form submit
       event.preventDefault();
-      
+
       var score = grader3();
       if (!Meteor.userId()) {
         alert("You got " + score+ " out of 10 correct!");

@@ -1,17 +1,8 @@
 <template name="scorespage">
   <body>
 
-  <div class="container">
-    <div class="page-header">
-      <h1 align="center">Trivia Quiz</h1>
-      <div align="left">
-        {{ >loginButtons}}
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <nav class="navbar navbar-default">
+  <div class="container" id="bar">
+    <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
@@ -23,9 +14,13 @@
         <div class="collapse navbar-collapse" id="navbardata">
           <ul class="nav navbar-nav">
             <li><a href="\">Home</a></li>
+            <li><a href="quiz1page">Quizzes</a></li>
             <li><a href="scorespage">Scores</a></li>
             <li><a href="aboutspage">About</a></li>
           </ul>
+          <div id="login-icon" align="right">
+            {{ >loginButtons}}
+          </div>
         </div>
       </div>
     </nav>
@@ -33,15 +28,11 @@
 
   <div id="body" class="container">
     <div class="row row-eq-height">
-      <div id="sidebar" class="col-sm-3">
-        <p>Choose a Quiz:</p>
-        <ul>
-          <li><a href="quiz1page">Quiz 1</a></li>
-          <li><a href="quiz2page">Quiz 2</a></li>
-          <li><a href="quiz3page">Quiz 3</a></li>
-        </ul>
+      <div id="sidebar" class="col-sm-6">
+        Users with a login will have their scores displayed on the scoreboard to see how they rank against other users. In addition, the score shown is the total score for all the quizzes the user has taken. A user may take a quiz more than once, but only the first score will be added to the total score shown on the scoreboard.
+
       </div>
-      <div id="main" class="col-sm-9">
+      <div id="main" class="col-sm-6">
         Score Board
         {{ >scores}}
       </div>

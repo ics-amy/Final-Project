@@ -1,17 +1,8 @@
 <template name="quiz2page">
   <body>
 
-  <div class="container">
-    <div class="page-header">
-      <h1 align="center">Trivia Quiz</h1>
-      <div align="left">
-        {{ >loginButtons}}
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <nav class="navbar navbar-default">
+  <div class="container" id="bar">
+    <nav class="navbar">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbardata">
@@ -26,6 +17,9 @@
             <li><a href="scorespage">Scores</a></li>
             <li><a href="aboutspage">About</a></li>
           </ul>
+          <div id="login-icon" align="right">
+            {{ >loginButtons}}
+          </div>
         </div>
       </div>
     </nav>
@@ -34,7 +28,7 @@
   <div id="body" class="container">
     <div class="row row-eq-height">
       <div id="sidebar" class="col-sm-3">
-        <p>Choose a Quiz:</p>
+        <h4>Choose a Quiz:</h4>
         <ul>
           <li><a href="quiz1page">Quiz 1</a></li>
           <li><a href="quiz2page">Quiz 2</a></li>
@@ -42,6 +36,7 @@
         </ul>
       </div>
       <div id="main" class="col-sm-9">
+        <h3> Quiz 2</h3>
         <form class="quiz2">
           <p>1. Which of these mammals lays eggs?<br></p>
           <p><input type="radio" name="q1" value="echidna"> echidna<br>
@@ -109,6 +104,10 @@
         </form>
       </div>
     </div>
+  </div>
+
+  <div class="container" id="footer">
+    ICS 415 Amy Li and Noelle Chen
   </div>
 
   </body>
