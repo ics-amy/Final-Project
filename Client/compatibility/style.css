@@ -58,6 +58,9 @@ body {
 #login-icon>#login-buttons>.login-link-and-dropdown-list>#login-sign-in-link {
   color:white;
 }
+#login-icon>#login-buttons>.login-link-and-dropdown-list>.login-link-text {
+  color:white;
+}
 
 #footer {
   background-color:#0078AC;
