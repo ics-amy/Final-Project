@@ -26,16 +26,18 @@
     </nav>
   </div>
 
+  <div id="main" class="col-sm-6">
+    <h1 align = "center">Score Board</h1><br>
+    <h4 align = "center">{{ >scores}}</h4>
+  </div>
+
   <div id="body" class="container">
     <div class="row row-eq-height">
       <div id="sidebar" class="col-sm-6">
         Users with a login will have their scores displayed on the scoreboard to see how they rank against other users. In addition, the score shown is the total score for all the quizzes the user has taken. A user may take a quiz more than once, but only the first score will be added to the total score shown on the scoreboard.
 
       </div>
-      <div id="main" class="col-sm-6">
-        Score Board
-        {{ >scores}}
-      </div>
+
     </div>
   </div>
 
@@ -43,11 +45,10 @@
 
 </template>
 
-
 <template name="scores">
   <ul>
     {{#each user}}
-      <li>{{username}}: {{score}}</li>
+      {{username}}: {{score}} <br><br>
     {{/each}}
   </ul>
 </template>

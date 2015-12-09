@@ -8,4 +8,5 @@ if(Meteor.isClient) {
       return Scores.find({}, {sort: {score: -1}});
     }
   });
+
 }

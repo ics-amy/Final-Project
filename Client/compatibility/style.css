@@ -71,6 +71,4 @@ body {
   width: 100%;
 }
 
-hr { padding: 0; border: none; border-top: medium double #1212f2; color: #1212f2; text-align: center; }
 
-hr.style-eight { content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background: #5d32ff; }
